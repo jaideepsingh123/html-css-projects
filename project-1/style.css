@@ -49,3 +49,16 @@ img {
   border-radius: 50%;
   overflow: hidden;
 }
+.biography_section {
+  margin: 50px 50px;
+}
+.biography_heading {
+  margin-bottom: 20px;
+}
+.biography_underorderlist {
+  margin-left: 50px;
+}
+.biography_lists {
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
