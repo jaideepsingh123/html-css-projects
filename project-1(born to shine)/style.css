@@ -14,12 +14,27 @@
   margin: 0px auto;
 }
 .image-container {
-  border-radius: 25%;
+  border-radius: 20%;
+  margin-top: 50px;
 }
-.top_container {
+.top_section {
   display: flex;
-  margin-top: 100px;
 }
-.top_container h1 {
-  font-size: 51px;
+.heading {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.para {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  margin-left: 10px;
+}
+.paragraph {
+  text-align: justify;
+  margin-right: 25px;
+  font-size: 20px;
+  margin-left: 10px;
 }
