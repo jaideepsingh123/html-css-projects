@@ -10,15 +10,17 @@
   border: 5px solid black;
 }
 .content-box {
-  min-width: 100vw;
-  margin: 0px auto;
+  max-width: 100vw;
+  margin: 0 auto;
 }
-.image-container {
+.image_container {
   border-radius: 20%;
-  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-left: 25px;
 }
 .top_section {
   display: flex;
+  justify-content: flex-end;
 }
 .heading {
   font-size: 35px;
@@ -31,10 +33,21 @@
   font-weight: 500;
   font-style: italic;
   margin-left: 10px;
+  overflow: hidden;
 }
 .paragraph {
   text-align: justify;
   margin-right: 25px;
   font-size: 20px;
   margin-left: 10px;
+}
+.about_heading {
+  font-size: 25px;
+  margin: 25px;
+}
+.about {
+  background-position: 25px;
+}
+.details {
+  margin-left: 25px;
 }
