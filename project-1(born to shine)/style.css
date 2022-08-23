@@ -10,17 +10,17 @@
   border: 5px solid black;
 }
 .content-box {
-  max-width: 100vh;
+  max-width: 900px;
   margin: 0 auto;
 }
 .image_container {
   border-radius: 20px;
-  margin-bottom: 25px;
   margin-left: 25px;
 }
 .top_section {
   display: flex;
   justify-content: flex-end;
+  margin-top: 100px;
 }
 .heading {
   font-size: 35px;
