@@ -50,4 +50,7 @@
 }
 .details {
   margin-left: 25px;
+  text-decoration: solid;
+  font-size: 25px;
+  background-position: 10px;
 }
