@@ -15,7 +15,7 @@
 }
 .image_container {
   border-radius: 20px;
-  margin-left: 25px;
+  margin-left: 20px;
 }
 .top_section {
   display: flex;
@@ -23,30 +23,33 @@
   margin-top: 100px;
 }
 .heading {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bold;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
 }
 .para {
   font-size: 20px;
   margin-left: 10px;
+  text-transform: uppercase;
 }
 .paragraph {
   text-align: justify;
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 10px;
+  margin-top: 10px;
 }
 .about_heading {
   font-size: 25px;
   margin: 25px;
 }
-.about {
-  background-position: 25px;
-}
 .details {
   margin-left: 15px;
+  font-size: 20px;
+  text-transform: capitalize;
 }
 .details_heading {
   font-size: 25px;
+  text-transform: capitalize;
 }
