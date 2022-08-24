@@ -30,14 +30,10 @@
 }
 .para {
   font-size: 20px;
-  font-weight: 500;
-  font-style: italic;
   margin-left: 10px;
-  overflow: hidden;
 }
 .paragraph {
   text-align: justify;
-  margin-right: 25px;
   font-size: 20px;
   margin-left: 10px;
 }
