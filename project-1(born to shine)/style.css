@@ -10,13 +10,12 @@
   border: 5px solid black;
 }
 .content-box {
-  max-width: 900px;
-  margin: 0 auto;
+  max-width: 900vw;
+  margin-right: 15px;
 }
 .image_container {
   border-radius: 20px;
   margin-left: 20px;
-  padding: -500px;
 }
 .top_section {
   display: flex;
