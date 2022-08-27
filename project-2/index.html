@@ -20,17 +20,51 @@
 
                         <input id="First_name" name="First_name" placeholder="Enter First Name...">
                     </div>
-                    <div class="form control">
-                        <label for="last_name">last Name</label>
+                    <div class="form_control">
+                        <label for="last_name">Last Name</label>
                         <input id="last_name" name="last_name" placeholder="Enter Last Name...">
                     </div>
-                    <div class="form control ">
-                        <label for=" Email">Email</label>
-                        <input id="Email" name="Email" placeholder="Enter Email...">
+                    <div class="form_control">
+                        <label for="Email">Email</label>
+                        <input type="Email" name="Email" id="Email" placeholder="Enter Email">
+                    </div>
+                    <div class="form_control">
+                        <label for="Job_role">Job Role</label>
+                        <select id="Job_role" name="Job_Role">
+                            <option value="">select Job Role</option>
+                            <option value="frontend">frontend Developer</option>
+                            <option value="backend"> Backend Developer</option>
+                            <option value="full_stack">Full Stack Developer</option>
+                            <option value="ui_ux">UI UX Designer</option>
+                        </select>
+                    </div>
+                    <div class="textarea_control">
+                        <label for="address">Address</label>
+                        <textarea id="address" name="addrress" row="4" cols="50" placeholder="Enter Address"></textarea>
+                    </div>
+                    <div class="form_control">
+                        <label for="city">City</label>
+                        <input id="city" name="city" placeholder="Enter City Name...">
+                    </div>
+                    <div class="form_control">
+                        <label for="pincode">Pincode</label>
+                        <input id="Pincode" type="number" name="Pincode" placeholder="Enter Pincode">
+                    </div>
+                    <div class="form_control">
+                        <label for="date">Date</label>
+                        <input value="2022-08-27" type="date" name="Date" id="Data">
+                    </div>
+                    <div class="form_control">
+                        <label for="upload">Upload your CV </label>
+                        <input type="file" name="upload" id="upload">
                     </div>
                 </div>
-            </form>
+                <div class="button_container">
+                    <button type="submit">Apply Now </button>
+                </div>
         </div>
+        </form>
+    </div>
     </div>
 </body>
 
