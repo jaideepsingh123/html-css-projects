@@ -1,0 +1,96 @@
+body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./1_5lyavS59mazOFnb55Z6znQ.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #b3b3b3;
+  background-blend-mode: multiply;
+}
+body .logo {
+  position: absolute;
+  align-self: flex-start;
+  left: 10px;
+}
+body .logo img {
+  height: 75px;
+  width: auto;
+}
+body .login {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  border-radius: 4px;
+  width: 400px;
+  padding: 60px 90px 40px;
+}
+body .login_title {
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+body .logo_group {
+  position: relative;
+  z-index: 10;
+  display: flex;
+}
+body .login_group_label {
+  position: absolute;
+  z-index: 150;
+  color: #b3b3b3;
+  font-size: 0.9rem;
+  top: 30px;
+  left: 18px;
+  transition: all 300ms ease-in;
+}
+body .login_group_input {
+  width: 100%;
+  position: relative;
+  z-index: 100;
+  background: #333;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: none;
+  opacity: 1;
+  font-size: 1rem;
+  color: #fff;
+  line-height: 50px;
+  padding: 12px 10px 0;
+}
+body .login_group_input:focus + .login_group_label {
+  top: 15px;
+  font-size: 0.7rem;
+}
+body .login_secodary-cta {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+body .login_secondary-cta_text {
+  opacity: 1;
+  position: relative;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
+}
+body .login_secondary-cta_text--need-help:hover {
+  text-decoration: underline;
+}
+::-moz-placeholder {
+  font-size: 0.7rem;
+}
+:-ms-placeholder {
+  font-size: 0.7rem;
+}
+::placeholder {
+  font-size: 0.7rem;
+}
