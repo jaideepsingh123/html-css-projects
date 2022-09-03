@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lato", sans-serif;
+  font-weight: 400px;
+  line-height: 1.8em;
+  color: #666;
+}
+.ping-1 {
+  background-image: url(./pexels-photo-302804.jpeg);
+  min-height: 100%;
+}
+.ping-2 {
+  background-image: url(./pexels-photo-775201.jpeg);
+  min-height: 400px;
+}
+.ping-3 {
+  background-image: url(./pexels-photo-931007.jpeg);
+  min-height: 400px;
+}
+.ping-1,
+.ping-2,
+.ping-3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+.textBg {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark {
+  background-color: grey;
+  color: white;
+}

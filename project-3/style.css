@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.container {
+  border: 10px solid black;
+  min-height: 100vh;
+  background-color: grey;
+}
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.top_section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.top_section h1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+.top_section h4 {
+  font-size: 20px;
+  text-align: end;
+}
+.about_section {
+  margin: 50px;
+  margin: 0 auto;
+}
+.about_section p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+.Biography_section h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  margin-left: 2px;
+}
+li {
+  font-size: 18px;
+  margin: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  word-spacing: 1px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container_box {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.apply_box {
+  min-width: 600px;
+  padding: 6px 10px 10px;
+  margin: 50px;
+}
+.form_container {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+.form_control {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+input,
+textarea {
+  padding: 6px 10px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline-color: red;
+}
+.button {
+  display: flex;
+
+  justify-content: flex-end;
+  margin-top: 20px;
+  padding: 5px 10px;
+  color: white;
+  transition: 0.3s ease-in;
+}
+button:hover {
+  background-color: lightblue;
+  border: 2px solid red;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  .textarea_control {
+    grid-column: 1 / span 2;
+  }
+}
